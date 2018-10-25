@@ -1,0 +1,99 @@
+body {
+  color: #555;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+/* class selector  */
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #6D52A2;
+  height: 150px;
+  line-height: 150px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* id selector  */
+#header-title {
+  display: block;
+  float: left;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#header-nav {
+  display:  block;
+  float: right;
+  margin-top: 0;
+}
+
+#header-nav li {
+  display: inline;
+  padding-left: 20px;
+}
+
+#header a:hover {
+  color: #222;
+  cursor: pointer;
+}
+
+/* footer  */
+
+footer {
+  background-color: #292c2f;
+  position: absolute;
+  width: 100%;
+  font: bold 16px sans-serif;
+  /* font-weight: ;
+  font-size:
+  font-family:; */
+  padding: 55px 50px;
+}
+
+footer .footer-left {
+  width: 40%;
+}
+
+footer .footer-left, footer .footer-right {
+  display: inline-block;
+  vertical-align: center;
+}
+
+footer .footer-links {
+  color: #fff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+footer .footer-links a {
+  text-decoration: none;
+  color: inherit;
+}
+
+footer .footer-name {
+  font-size: 14px;
+  font-weight: normal;
+  color: #fff;
+  margin: 0;
+}
+
+footer .footer-right{
+  color: #fff;
+  width: 35%;
+}
+
+footer .footer-right p {
+  display: inline-block;
+  color: #fff;
+  vertical-align: middle;
+  margin: 0;
+}
